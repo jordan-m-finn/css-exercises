@@ -1,25 +1,59 @@
 .header  {
   font-family: monospace;
-  background: papayawhip;
+  background: rgb(252, 228, 178);
+  /* Default is border: row */
+  /* My defs: */
+  display: flex;
 }
 
+/* .logo is a standalone override... */
 .logo {
-  font-size: 48px;
   font-weight: 900;
   color: tomato;
   background: white;
-  padding: 4px 32px;
+  
+  /* My defs/mods: */
+  /* We need to align along the  */
+  justify-content: center;
+  margin: auto;
+  font-family: "Lucida Console", sans;
+  font-size: 32px;
+  padding: 1px 25px;
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  /* My defs: */
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-around;
 }
 
+/* Could this have also been li? */
 a {
   font-size: 22px;
   background: white;
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+
+  /* My defs: */
+  padding: 5px;
+}
+
+/* Add one for left-links? */
+/* Add one for right-links? */
+
+.left-links {
+  align-self: flex-end;
+  justify-content: center;
+  margin-left: -30px;
+}
+
+.right-links {
+  justify-content: flex-end;
+  justify-items: center;
+  margin-right: 10px;
 }
