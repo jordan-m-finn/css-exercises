@@ -12,6 +12,11 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+
+  /* Defs: */
+  display: flex;
+  justify-content: center;
+  padding: 8px 8px;
 }
 
 .profile-image {
@@ -20,6 +25,11 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
+
+  /* Defs: */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .logo {
@@ -27,6 +37,15 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  
+  /* Defs: */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 16px;
 }
 
 button {
@@ -35,14 +54,54 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+
+  /* Defs */
+  display: flex;
+  justify-content: flex-end;
 }
 
 a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+ 
+  /* Defs: */
+  display: flex;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 16px;
+  padding: 0px;
 }
 
 ul {
   list-style-type: none;
+  padding: 0px;
+}
+
+/* Defs: */
+.right-nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-top: 10px;
+  margin-right: 16px;
+  margin-bottom: 10px;
+  padding: 0px 0px;
+}
+
+/* Defs: */
+.notifications {
+  padding: 5 5px;
+  margin-right: 16px;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* Defs: */
+.links{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
