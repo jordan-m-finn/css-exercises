@@ -24,3 +24,72 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/* My Solution: */
+ul {
+  list-style-type: none;
+}
+
+a {
+  /* removing the underline and blue */
+  all: unset;
+  cursor: pointer;
+  color: rgb(111, 111, 111);
+}
+
+body {
+  /* For the footer to stay at the bottom */
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  padding: 5px;
+  justify-content: space-between;
+}
+
+.footer {
+  display: flex;
+  margin-top: auto;
+  padding: 5px;
+  justify-content: space-between;
+  background: #eeeeee;
+}
+
+.left-links {
+  display: flex;
+  gap: 15px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.right-links {
+  display: flex;
+  gap: 15px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 15px;
+}
+
+button {
+  padding: 10px;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
